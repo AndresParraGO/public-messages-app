@@ -1,0 +1,21 @@
+
+.chat__input {
+  display: flex;
+  justify-content: space-between;
+  
+  background-color: rgba(0,0,0,.01);
+  border-top: 1px solid #eee;
+}
+
+.chat__input input {
+  padding: 1em;
+  border: none;
+}
+
+.chat__input button {
+  padding: .3em 1em;
+  background-color: rgb(83, 178, 255);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}

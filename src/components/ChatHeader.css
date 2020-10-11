@@ -1,0 +1,10 @@
+
+
+.chat__header {
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+
+  background-color: rgba(0,0,0,.01);
+  border-bottom: 1px solid #eee;
+}

@@ -3,15 +3,27 @@
 .sidebarChat {
   display: flex;
   position: relative;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
   border-bottom: 1px solid #eee;
-  padding: 1em 0;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.sidebarChat:hover {
+  background-color: rgb(83, 178, 255);
 }
 
 .sidebarChat__timestamp {
   position: absolute;
-  right: 0;
+  right: 1em;
   top: 1em;
+
+  font-size: .9em;
+}
+
+.sidebarChat__lastmessage {
+  font-size: .9em;
+  color: #666;
 }
 
 .sidebarChat__avatar {
