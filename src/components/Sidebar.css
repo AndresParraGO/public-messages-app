@@ -1,0 +1,40 @@
+
+
+.sidebar {
+  flex: .3.5;
+
+  background-color: rgba(0,0,0,.01);
+  height: 100vh;
+
+  border-right: 1px solid #eee;
+  
+  padding: 1em;
+}
+
+
+.sidebar__header{
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 2em;
+}
+
+.sidebar__header__avatar,
+.sidebar__header__addchat {
+  width: 40px;
+  height: 40px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.sidebar__header__search {
+  margin: 0 1em;
+  background-color: #eee;
+  padding: .2em 1em;
+  border-radius: 20px;
+}
+
+.sidebar__header__search input {
+  background-color: inherit;
+  border: none;
+}

@@ -1,0 +1,22 @@
+
+
+.sidebarChat {
+  display: flex;
+  position: relative;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #eee;
+  padding: 1em 0;
+}
+
+.sidebarChat__timestamp {
+  position: absolute;
+  right: 0;
+  top: 1em;
+}
+
+.sidebarChat__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 1em;
+}
