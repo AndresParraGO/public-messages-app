@@ -1,0 +1,22 @@
+
+
+.msg {
+	margin: .5em 0;
+	display: flex;
+	align-items: center;
+}
+
+.msg__avatar {
+	margin-right: .5em;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.msg__text {
+	padding: .5em;
+	border-radius: 20px;
+	background-color: rgb(83, 178, 255);
+	color: #fff;
+
+}

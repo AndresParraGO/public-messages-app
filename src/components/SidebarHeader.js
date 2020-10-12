@@ -6,7 +6,7 @@ import './SidebarHeader.css';
 
 import { faSearch, faPlusSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import db from '../firebase';
+import db, {auth} from '../firebase';
 
 import {useUser} from '../context/UserContext';
 
@@ -24,7 +24,7 @@ function SidebarHeader() {
 
   return (
     <header className="sidebar__header">
-      <img onClick={logout} src={user.photo} className="sidebar__header__avatar" alt="" />
+      <img onClick={() => auth.signOut()} src={user.photo} className="sidebar__header__avatar" alt="" />
 
       <div className="sidebar__header__search">
         <FontAwesomeIcon icon={faSearch} color="#ccc" />

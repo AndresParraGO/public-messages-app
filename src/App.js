@@ -7,7 +7,7 @@ import Login from './components/Login';
 import {ChatProvider} from './context/ChatContext';
 import {UserProvider,useUser} from './context/UserContext';
 
-import {auth, provider} from './firebase';
+import {auth} from './firebase';
 
 export default () => <UserProvider>
 	<ChatProvider>

@@ -10,6 +10,8 @@
 .chat__input input {
   padding: 1em;
   border: none;
+  background-color: inherit;
+  width: 100%;
 }
 
 .chat__input button {
