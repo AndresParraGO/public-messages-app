@@ -4,20 +4,14 @@ import './Sidebar.css';
 
 
 import SidebarHeader from './SidebarHeader';
-import SidebarChat from './SidebarChat';
+import SidebarChats from './SidebarChats';
 
 
 function Sidebar() {
   return (
     <aside className="sidebar">
       <SidebarHeader />
-
-      <div className="sidebar__chats">
-        <SidebarChat />
-        <SidebarChat />
-        <SidebarChat />
-        <SidebarChat />
-      </div>
+      <SidebarChats />
     </aside>
   );
 }
