@@ -21,6 +21,8 @@ function Login() {
 			<h1 className="login__title">Login</h1>
 
 			<button className="login__btn" onClick={signIn}>Sign In</button>
+
+			<span className="login__copy">Hecho con 💛 por <a href="https://andresparra.vercel.app/" target="_blank">Andrés Parra</a></span>
 		</div>
 	);
 }

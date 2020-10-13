@@ -1,6 +1,7 @@
 .sidebar__header{
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   margin-bottom: 2em;
 
@@ -40,4 +41,29 @@
   background-color: inherit;
   border: none;
   margin-left: .5em;
+}
+
+
+
+
+.modal {
+  position: absolute;
+  top: 3.5em;
+  left: 1em;
+  background-color: #fff;
+
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+  border-radius: 5px;
+}
+
+.modal li {
+  padding: .5em 1em;
+  list-style: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.modal li:hover {
+  background-color: rgb(83, 178, 255);
+  color: #fff;
 }

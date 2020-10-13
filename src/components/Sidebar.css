@@ -1,14 +1,16 @@
 
 
 .sidebar {
-  flex: .3.5;
+  width: 550px;
 
   background-color: rgba(0,0,0,.01);
   height: 100vh;
 
   border-right: 1px solid #eee;
-  
-  /* padding: 1em; */
 }
 
 
+.sidebar__chats {
+	overflow-y: scroll;	
+	height: 100%;
+}

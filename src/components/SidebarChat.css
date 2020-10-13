@@ -3,7 +3,6 @@
 .sidebarChat {
   display: flex;
   position: relative;
-  /* margin-bottom: 1em; */
   border-bottom: 1px solid #eee;
   padding: 1em;
   cursor: pointer;
