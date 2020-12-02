@@ -8,15 +8,15 @@
   padding: 1em;
 }
 
-.sidebar__header__avatar,
-.sidebar__header__addchat {
+.sidebar__header__avatar
+/*.sidebar__header__addchat*/ {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
 }
 
-.sidebar__header__addchat {
+/*.sidebar__header__addchat {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,9 +28,10 @@
 .sidebar__header__addchat:hover {
   background-color: #eee;
 }
-
+*/
 
 .sidebar__header__search {
+  width: 90%;
   margin: 0 1em;
   background-color: #eee;
   padding: .2em 1em;

@@ -17,13 +17,13 @@ function SidebarHeader() {
 
   const {user} = useUser();
 
-  const addChat = () => {
-    const chatName = prompt("Ingrese el nombre del nuevo chat: ");
+  // const addChat = () => {
+  //   const chatName = prompt("Ingrese el nombre del nuevo chat: ");
 
-    db.collection("chats").add({
-      chatName: chatName
-    });
-  }
+  //   db.collection("chats").add({
+  //     chatName: chatName
+  //   });
+  // }
 
 
   const signOut = () => {
@@ -46,9 +46,9 @@ function SidebarHeader() {
         <input type="text" placeholder="Search" />
       </div>
 
-      <div className="sidebar__header__addchat" onClick={addChat}>
+      {/* <div className="sidebar__header__addchat" onClick={addChat}>
         <FontAwesomeIcon icon={faPlusSquare} color="#ccc" />
-      </div>
+      </div> */}
     </header>
   );
 }

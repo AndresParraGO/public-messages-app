@@ -35,6 +35,7 @@ function ChatInput() {
     }
 
     setInputMsg(e.target.value);
+    setInputMsg('');
   }
 
   return (
@@ -42,6 +43,7 @@ function ChatInput() {
       <input 
       	type="text" 
       	placeholder="Write..." 
+        onKeyPress={(e) => e.key === 'Enter' ? sendMessage(e) : false}
       	value={inputMsg}
 				onChange={(e) => setInputMsg(e.target.value)}
     	/>

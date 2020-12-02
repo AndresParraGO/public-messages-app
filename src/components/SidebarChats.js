@@ -25,8 +25,8 @@ function SidebarChats() {
 
 	return (
 		<div className="sidebar__chats">
-      {chats.map(({id, chatName}) => {
-      	return <SidebarChat key={id} chatName={chatName} chatId={id} />
+      {chats.map(({id, chatName, chatIcon}) => {
+      	return <SidebarChat key={id} chatName={chatName} chatIcon={chatIcon} chatId={id} />
       })}
     </div>
 	);
