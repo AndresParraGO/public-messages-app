@@ -19,6 +19,7 @@ function Login() {
 		<div className="login">
 			<img className="login__img" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ficons.iconarchive.com%2Ficons%2Fxenatt%2Fthe-circle%2F512%2FApp-Messages-icon.png&f=1&nofb=1" alt="Logo Public Messages" />
 			<h1 className="login__title">Login</h1>
+			<p className="login__description">Chats of Software, Frontend, Backend, AI, etc. <br /> <strong>"Share your knowledge"</strong></p>
 
 			<button className="login__btn" onClick={signIn}>Sign In</button>
 

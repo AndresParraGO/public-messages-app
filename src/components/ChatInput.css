@@ -19,6 +19,10 @@
   width: 100%;
 }
 
+.chat__input input:focus {
+  outline: none;
+}
+
 .chat__input button {
   padding: .3em 1em;
   background-color: rgb(83, 178, 255);

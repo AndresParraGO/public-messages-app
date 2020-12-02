@@ -6,7 +6,7 @@ import './SidebarChat.css';
 import {useChat} from '../context/ChatContext';
 
 
-function SidebarChat( {chatId, chatName, chatIcon} ) {
+function SidebarChat( {chatId, chatName, lastMessage, chatIcon} ) {
   const {chageChat} = useChat();
 
 
@@ -21,7 +21,7 @@ function SidebarChat( {chatId, chatName, chatIcon} ) {
 
       <div className="sidebarChat__content">
         <h3 className="sidebarChat__name">{chatName}</h3>
-        <p className="sidebarChat__lastmessage">Last message</p>
+        <p className="sidebarChat__lastmessage"></p>
         <span className="sidebarChat__timestamp"></span>
       </div>
     </article>

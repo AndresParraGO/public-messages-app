@@ -18,8 +18,12 @@
 }
 
 .login__title {
-	margin-bottom: 1em;
+	margin-bottom: .5rem;
 	text-transform: uppercase;
+}
+.login__description {
+	text-align: center;
+	margin-bottom: 1.5rem;
 }
 
 .login__btn {
